@@ -27,7 +27,7 @@ public class Calculator extends JFrame implements ActionListener
 	private JLabel jlOutput;
 	private JButton jbButtons[];
 	private JPanel jpMaster, jpControl;
-	ERROR_MADE_BY_EUNSANG	//Error test by Eunsang	
+//	ERROR_MADE_BY_EUNSANG	//Error test by Eunsang	
 	
 		//Constructor
 	public Calculator()
