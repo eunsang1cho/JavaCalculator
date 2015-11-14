@@ -525,6 +525,12 @@ public class Calculator extends JFrame implements ActionListener
 		
 		void displayResult(double result)
 		{
+			//Make BUG for test  by EUNSANG
+			int bugVal=100;
+			bugVal = 100/0;
+			//-----------------------------
+
+
 			setDisplayString(Double.toString(result));
 			lastNumber = result;
 			displayMode = RESULT_MODE;
